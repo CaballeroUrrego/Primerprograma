@@ -39,7 +39,7 @@
             btnVerMensaje.TabIndex = 0;
             btnVerMensaje.Text = "Ver mensaje";
             btnVerMensaje.UseVisualStyleBackColor = true;
-            btnVerMensaje.Click += btnVerMensaje_Click;
+            btnVerMensaje.Click += new System.EventHandler(this.btnVerMensaje_Click);
             // 
             // Form1
             // 
