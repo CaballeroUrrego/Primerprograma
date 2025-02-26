@@ -6,5 +6,10 @@ namespace Primerprograma
         {
             InitializeComponent();
         }
+
+        private void btnVerMensaje_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Bienvenido Sebastian Urrego");
+        }
     }
 }
